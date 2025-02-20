@@ -1,0 +1,3 @@
+[submodule "tqs_labs_euromillion_unit"]
+	path = tqs_labs_euromillion_unit
+	url = https://bitbucket.org/iolvr/tqs_labs_euromillion_unit.git
