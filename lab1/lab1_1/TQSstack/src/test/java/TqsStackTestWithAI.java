@@ -2,13 +2,12 @@
 import org.example.TqsStack;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Assertions;
 
 import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TqsStackTest {
+class TqsStackTestWithAI {
 
     private TqsStack<Integer> stack;
     private TqsStack<Integer> boundedStack;

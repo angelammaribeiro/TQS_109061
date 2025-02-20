@@ -3,7 +3,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-public class __TqsStackTest {
+public class TqsStackTest {
     TqsStack<Integer> tqsStack;
 
     @BeforeEach
@@ -84,5 +84,15 @@ public class __TqsStackTest {
 
             Assertions.assertThrows(IllegalStateException.class, () -> {tqsStack.push(1);});
         }
+    }
+
+    @Test
+    public void PopTopNTest(){
+        tqsStack.push(1);
+        tqsStack.push(2);
+        tqsStack.push(3);
+        tqsStack.push(4);
+
+        Assertions.assertEquals(2,tqsStack.popTopN(3));
     }
 }
