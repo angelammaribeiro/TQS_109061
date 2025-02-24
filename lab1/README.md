@@ -69,3 +69,20 @@ class ClasseXTest {
     n <= 0 → O comportamento pode ser inesperado ou não tratado corretamente.
 
 Se não houver testes específicos para estes cenários, mesmo com 100% de cobertura, o código pode falhar.
+
+## 2
+
+### C)
+
+- **Classe com Menos Coverage** : CuponEuromillions
+- **Método com Menos Coverage** : generateRandomDraw(), generateDrawResults(), hashCode(), format(), countDips(), hashCode()
+
+### D)
+
+- **Coverage Antes** :
+
+![Coverage Antes](alineaD_coverageAntes.png)
+
+- **Coverage Depois** : 
+
+![Coverage Depois](alineaD_coverageDepois.png)

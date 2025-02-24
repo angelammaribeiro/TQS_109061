@@ -1,0 +1,17 @@
+-> MOck faz implementações dummy, usa-se .thenReturn(se quisermos que retorno algo especifico face um parametro de entrada especifico)
+
+-> Mockito : ter exxpectations a mais cria uma exceção de UnnecessaryStubbingException, não é um problema grave mas o MOckito queixa-se pois se estas não estão a ser usadas, o Mockito assume que há algo na minha lógica não está bem. Para impedir isto podemos fazer @MockitoSettings(strictness = ...)
+
+-> Se usarmos o Mock com um parametro que nunca sido apresentado, ele gera um return default do tipo certo não fazendo qualquer tipo de problema ao Mock 
+
+-> O hamcrest é outra biblioteca de asserts em que se pode usar algo assertThat 
+
+-> A class anotada com @InjectionMocks usa a class anotada com @Mock
+
+-> Os testes integrado só entram da parte do install ou seja a de execução
+
+-> Os testes unitários são sempre executados no Maven a menos que sejam explicitamente excluidos
+
+-> O Maven descobre quais os unitários e quais os de integração por convenção, pois as classes que acabam em Test são testes unitários e as que acabam em IT são os testes de integração
+
+-> Lombok é uma dependência que se mostra útil no tópico de getters e setters
