@@ -1,0 +1,9 @@
+-> Testes de automação -  Tetes end-to-end em que se simula o comportamento do utilizador na aplicação
+
+driver.get(url) -> acede a um site acedendo a um browser 
+
+-> driver representa a nossa sessão ativa com o browser aberto 
+
+-> driver.findElement encontra um elemento da página web especificado 
+
+-> explicit waits cria um ciclo de espera automático wait until (d -> revealed.isDisplayed)
